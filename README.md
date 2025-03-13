@@ -2,6 +2,8 @@
 
 StockScorePro is an intelligent and user-friendly investment tool designed to analyze stocks based on their current prices relative to their 50-day moving average. It identifies attractive investment opportunities by evaluating price stability, closeness to average pricing, and potential undervaluation. 💰📊
 
+This tool is ideal when you have a specific list of companies you'd like to invest in long-term. You manually enter your favorite companies' stock tickers directly into the script, and StockScorePro will take care of the analysis for you.
+
 ---
 
 ## 🚀 **How Does StockScorePro Work?**
@@ -34,21 +36,21 @@ Follow these simple steps to start using StockScorePro:
 pip install yfinance pandas numpy  
 ```
 
-### **2. Run StockScorePro**
+### **2. Customize the List of Companies**
 
-Save the provided Python script as `stockscorepro.py`.
+- Open the `stockscorepro.py` file.
+- Find the list named `tickers`.
+- Replace the provided tickers with your preferred long-term investment companies.
 
-- Run with the default monthly investment amount ($3000):
+### **3. Run StockScorePro**
+
+Save your changes and run the script:
 
 ```bash  
 python stockscorepro.py  
 ```
 
-- Run specifying your own investment amount (e.g., $1500):
-
-```bash  
-python stockscorepro.py --capital 1500  
-```
+You will be prompted to enter your monthly investment amount (e.g., 1500).
 
 ---
 
@@ -73,6 +75,7 @@ Proposed investment distribution based on your monthly budget:
 
 Analysis completed on: 2025-03-13 15:45:30  
 ```
+
 ---
 
 ## 📌 **Why Use StockScorePro?**
